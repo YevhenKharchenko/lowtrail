@@ -1,6 +1,6 @@
 .header {
-  background: rgba(0, 0, 0, 0.9);
-  border: 1px solid #1b2131;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   position: fixed;
   width: 100%;
   top: 0;
@@ -28,10 +28,10 @@
 }
 
 .header-container {
-  padding: 0 40px;
+  padding: 0 18px;
 
   @include media(desktop) {
-    padding: 0 186px;
+    padding: 0 140px;
   }
 }
 
@@ -63,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 44px;
   }
 }
 
@@ -74,11 +74,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
-  color: #94a3b8;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
   transition: color 0.3s ease-in-out;
 
   &:hover,
@@ -97,4 +96,5 @@
 }
 
 .menu-icon {
+  stroke: #171717;
 }
