@@ -1,0 +1,133 @@
+.about-gameplay-bg-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-image: url(../img/gameplay/gameplay-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    background-image: url(../img/gameplay/gameplay-bg-desk.png);
+  }
+}
+
+.gameplay-section {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-section-wrapper {
+  padding-top: 50px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    max-width: 1440px;
+  }
+}
+
+.gameplay-container {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-title {
+  max-width: 273px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.gameplay-list-item {
+  box-shadow: 0 0 20px 0 rgba(124, 58, 237, 0.03);
+  background: rgba(15, 23, 32, 0.8);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+  border-radius: 14px;
+  padding: 18px 21px;
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  width: 100%;
+  max-width: 324px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding: 32px;
+    max-width: 500px;
+  }
+}
+
+.gameplay-item-number {
+  box-shadow: 0 0 15px 0 rgba(124, 58, 237, 0.6);
+  background: rgba(124, 58, 237, 0.1);
+  border: 2px solid #7c3aed;
+  border-radius: 10px;
+  min-width: 48px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #7c3aed;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-text-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #f0f9ff;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+.gameplay-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #94a3b8;
+
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
