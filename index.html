@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Low Trail: Drift Paths — A Minimal Motion Puzzle</title>
+    <meta
+      name="description"
+      content="Low Trail: Drift Paths is a minimalist path puzzle where drifting objects are guided by subtle trail markers. Calm, strategic, and gently immersive."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://lowtrail.space" />
+    <link rel="icon" type="image/png" href="/lowtrail/favicon.png" />
+    
+    <script type="module" crossorigin src="/lowtrail/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/lowtrail/assets/vendor-0d74985d.js">
+    <link rel="stylesheet" href="/lowtrail/assets/vendor-fb046256.css">
+    <link rel="stylesheet" href="/lowtrail/assets/styles-729aefa7.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="header-wrapper">
+    <div class="header-bg-wrapper">
+      <div class="container header-container">
+        <nav class="nav">
+          <a href="./index.html" class="header-logo-link">
+            <img
+              class="header-logo-img"
+              src="/lowtrail/assets/header-logo-mob-a354631f.png"
+              alt="Logo"
+              width="124"
+              height="56"
+            />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html#home">Horizon</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html#about">The Drift</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html#gameplay">Markers</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html#logic"
+                >Motion Logic</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html#features"
+                >Evolving Space</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html#reviews"
+                >Reflections</a
+              >
+            </li>
+          </ul>
+          <button class="nav-btn" type="button" aria-label="Open mobile menu">
+            <svg class="menu-icon" width="24" height="24">
+              <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <div class="container context-container">
+    <button class="close-btn" type="button" aria-label="Close mobile menu">
+      <svg class="close-icon" width="24" height="24">
+        <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="context-nav">
+      <ul class="context-nav-list">
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#home">Horizon</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#about">The Drift</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#gameplay">Markers</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#logic"
+            >Motion Logic</a
+          >
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#features"
+            >Evolving Space</a
+          >
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#reviews"
+            >Reflections</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <div class="hero-content-wrapper">
+        <div class="hero-text-wrapper">
+          <h1 class="hero-title">Where Movement Is Soft</h1>
+          <p class="hero-subtitle">So you've got this open field, right?</p>
+          <div class="hero-text-container">
+            <p class="hero-text">
+              Objects appear at the edge of space and begin drifting slowly
+              across the horizon.
+            </p>
+            <p class="hero-text">
+              They do not rush.<br />
+              They do not collide aggressively.
+            </p>
+            <p class="hero-text">
+              They simply move.<br />
+              Your presence is subtle.<br />
+              Your influence is minimal.
+            </p>
+          </div>
+          <a href="#about" class="hero-btn"
+            ><span>Explore the Drift</span>
+            <svg class="arrow-down-icon" width="24" height="24">
+              <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-down"></use></svg
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section about-section" id="about">
+  <div class="about-bg-wrapper">
+    <div class="container about-container">
+      <div class="about-content-wrapper">
+        <h2 class="section-title about-title">Movement Without Force</h2>
+        <p class="about-text about-top-text">
+          Everything just drifts along these smooth paths.<br />
+          There is no steering wheel.<br />
+          No direct commands.
+        </p>
+        <p class="about-list-text">Instead, you observe patterns:</p>
+        <ul class="about-list">
+          <li class="about-list-item">
+            <svg class="about-icon" width="23" height="23">
+              <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-navigation"></use>
+            </svg>
+            <p class="about-item-text">Direction</p>
+          </li>
+          <li class="about-list-item">
+            <svg class="about-icon" width="23" height="23">
+              <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-chart"></use>
+            </svg>
+            <p class="about-item-text">Natural curve</p>
+          </li>
+          <li class="about-list-item">
+            <svg class="about-icon" width="23" height="23">
+              <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-speed"></use>
+            </svg>
+            <p class="about-item-text">Speed</p>
+          </li>
+          <li class="about-list-item">
+            <svg class="about-icon" width="23" height="23">
+              <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-pulse"></use>
+            </svg>
+            <p class="about-item-text">Drift rhythm</p>
+          </li>
+        </ul>
+        <p class="about-text about-bottom-text">
+          Your role is not to control - it is to guide.
+        </p>
+        <a href="#gameplay" class="hero-btn about-btn"
+          ><span>Understand the Markers</span>
+          <svg class="arrow-down-icon" width="24" height="24">
+            <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-down"></use></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section gameplay-section" id="gameplay">
+  <div class="gameplay-bg-wrapper">
+    <div class="container gameplay-container">
+      <div class="gameplay-content-wrapper">
+        <h2 class="section-title gameplay-title">Quiet Influence</h2>
+        <p class="gameplay-text gameplay-top-text">
+          You place trail markers in open space.<br />
+          Markers do not stop movement.<br />
+          They bend it.
+        </p>
+        <p class="gameplay-list-text">Placed carefully, they:</p>
+        <ul class="gameplay-list">
+          <li class="gameplay-list-item">
+            <p class="gameplay-item-text">Adjust trajectory</p>
+          </li>
+          <li class="gameplay-list-item">
+            <p class="gameplay-item-text">Soften angles</p>
+          </li>
+          <li class="gameplay-list-item">
+            <p class="gameplay-item-text">Prevent slow collisions</p>
+          </li>
+          <li class="gameplay-list-item">
+            <p class="gameplay-item-text">Redirect drift toward safe zones</p>
+          </li>
+        </ul>
+        <p class="gameplay-text gameplay-bottom-text">
+          Too many markers create turbulence.<br />
+          Too few allow chaos.<br />
+          Sometimes the best move is doing absolutely nothing - took me forever
+          to figure that out.
+        </p>
+        <a href="#logic" class="hero-btn gameplay-btn"
+          ><span>Discover the Motion Logic</span>
+          <svg class="arrow-down-icon" width="24" height="24">
+            <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-down"></use></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section logic-section" id="logic">
+  <div class="logic-bg-wrapper">
+    <div class="container logic-container">
+      <div class="logic-content-wrapper">
+        <div class="logic-text-wrapper">
+          <h2 class="section-title logic-title">Gentle Redirection</h2>
+          <p class="logic-text logic-top-text">
+            Each marker creates a subtle field of influence.<br />
+            Objects passing nearby respond gradually.<br />
+            There are no sharp pivots.
+          </p>
+          <p class="logic-list-text">The system evaluates:</p>
+          <ul class="logic-list">
+            <li class="logic-list-item">
+              <p class="logic-item-text">Distance from marker</p>
+            </li>
+            <li class="logic-list-item">
+              <p class="logic-item-text">Angle of approach</p>
+            </li>
+            <li class="logic-list-item">
+              <p class="logic-item-text">Current drift velocity</p>
+            </li>
+          </ul>
+          <p class="logic-text logic-bottom-text">
+            Paths emerge slowly.<br />
+            When you nail it, everything just... flows. Like, you can actually
+            see it working the way you pictured it would.
+          </p>
+          <a href="#features" class="hero-btn logic-btn"
+            ><span>Understand the Markers</span>
+            <svg class="arrow-down-icon" width="24" height="24">
+              <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-down"></use></svg
+          ></a>
+        </div>
+        <picture>
+          <source
+            srcset="/lowtrail/assets/logic-img-desk-72bbb58c.png "
+            media="(min-width: 1440px)"
+            width="617"
+            height="345" />
+          <source
+            srcset="/lowtrail/assets/logic-img-mob-3c914d94.png "
+            width="323"
+            height="181" />
+          <img
+            class="logic-img"
+            src="/lowtrail/assets/logic-img-mob-3c914d94.png"
+            alt="Screenshot of the game"
+            width="323"
+            height="181"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="features-section section" id="features">
+  <div class="features-section-wrapper">
+    <div class="container features-container">
+      <h2 class="section-title features-title">
+        From Open Fields to Complex Flow
+      </h2>
+      <div class="features-swiper-container">
+        <ul class="swiper-wrapper features-swiper-wrapper">
+          <li class="swiper-slide features-list-item">
+            <p class="features-item-title">Early Stages:</p>
+            <ul class="features-item-list">
+              <li class="features-features-item">
+                <p class="features-item-text">Single drifting object</p>
+              </li>
+              <li class="features-features-item">
+                <p class="features-item-text">Wide open space</p>
+              </li>
+              <li class="features-features-item">
+                <p class="features-item-text">Simple safe zone target</p>
+              </li>
+            </ul>
+          </li>
+          <li class="swiper-slide features-list-item">
+            <p class="features-item-title">Mid Space:</p>
+            <ul class="features-item-list">
+              <li class="features-features-item">
+                <p class="features-item-text">Multiple simultaneous drifts</p>
+              </li>
+              <li class="features-features-item">
+                <p class="features-item-text">Overlapping influence fields</p>
+              </li>
+              <li class="features-features-item">
+                <p class="features-item-text">Narrow arrival corridors</p>
+              </li>
+            </ul>
+          </li>
+          <li class="swiper-slide features-list-item">
+            <p class="features-item-title">Advanced Layers:</p>
+            <ul class="features-item-list">
+              <li class="features-features-item">
+                <p class="features-item-text">Moving safe zones</p>
+              </li>
+              <li class="features-features-item">
+                <p class="features-item-text">Fading markers</p>
+              </li>
+              <li class="features-features-item">
+                <p class="features-item-text">Rotational gravity shifts</p>
+              </li>
+              <li class="features-features-item">
+                <p class="features-item-text">Limited marker counts</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="controls features-controls">
+        <button
+          class="arrow-btn"
+          id="featuresLeftArrow"
+          aria-label="Previous slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <div class="dots">
+          <div class="features-dot active"></div>
+          <div class="features-dot"></div>
+          <div class="features-dot"></div>
+        </div>
+        <button
+          class="arrow-btn"
+          id="featuresRightArrow"
+          aria-label="Next slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+      <p class="features-text features-bottom-text">
+        The space remains quiet.<br />
+        The thinking deepens.
+      </p>
+      <a href="#reviews" class="hero-btn features-btn"
+        ><span>Read Reflections</span>
+        <svg class="arrow-down-icon" width="24" height="24">
+          <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-down"></use></svg
+      ></a>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews-section section" id="reviews">
+  <div class="reviews-section-wrapper">
+    <div class="container reviews-container">
+      <h2 class="section-title reviews-title">What Players Notice</h2>
+      <div class="reviews-swiper-container">
+        <ul class="swiper-wrapper reviews-swiper-wrapper">
+          <li class="swiper-slide reviews-list-item">
+            <p class="reviews-item-name">Elena P.</p>
+            <p class="reviews-item-text">
+              “It feels unlike most puzzle games. There’s no rush, no loud
+              effects — just slow, thoughtful movement. Placing a marker and
+              watching the path adjust gradually is incredibly satisfying.
+              You've got to be patient with it, but it's worth it.”
+            </p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <p class="reviews-item-name">Daniel R.</p>
+            <p class="reviews-item-text">
+              “I enjoy how indirect the control feels. You’re not steering
+              objects, you’re shaping space around them. That subtle difference
+              makes the game feel refined and intelligent. It’s calming but
+              engaging.”
+            </p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <p class="reviews-item-name">Sofia M.</p>
+            <p class="reviews-item-text">
+              “The graphics are pretty basic, but I actually like that - less
+              stuff to distract me from figuring out the puzzles. Everything
+              moves smoothly with nice curves, and there's not much clutter on
+              screen. It's really relaxing. It feels almost meditative.”
+            </p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <p class="reviews-item-name">Marcus L.</p>
+            <p class="reviews-item-text">
+              “The later levels get way trickier than you'd think. When you've
+              got multiple things floating around, where you put those markers
+              really matters. It’s about anticipation, not reaction.”
+            </p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <p class="reviews-item-name">Aisha K.</p>
+            <p class="reviews-item-text">
+              “I love how just tiny tweaks can completely change what happens.
+              Really makes you think twice before placing stuff everywhere. You
+              don’t need dramatic moves to succeed.”
+            </p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <p class="reviews-item-name">Thomas W.</p>
+            <p class="reviews-item-text">
+              “It’s one of the most elegant path puzzles I’ve played. When you
+              get it right, it all clicks into place beautifully. I could watch
+              those things drift around for hours - it's weirdly mesmerizing.
+              Like the whole thing is breathing or something, but in a good
+              way.”
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="controls reviews-controls">
+        <button
+          class="arrow-btn"
+          id="reviewsLeftArrow"
+          aria-label="Previous slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <div class="dots">
+          <div class="reviews-dot active"></div>
+          <div class="reviews-dot"></div>
+          <div class="reviews-dot"></div>
+          <div class="reviews-dot"></div>
+          <div class="reviews-dot"></div>
+          <div class="reviews-dot"></div>
+        </div>
+        <button
+          class="arrow-btn"
+          id="reviewsRightArrow"
+          aria-label="Next slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/lowtrail/assets/sprite-aaf70a69.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="footer-bg-wrapper">
+    <div class="container footer-container">
+      <div class="footer-content-wrapper">
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a class="footer-link" href="./terms-and-conditions.html"
+                >Terms & Conditions</a
+              >
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-link" href="./privacy-policy.html"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <p class="footer-text">© 2026 — All rights reserved. lowtrail.space</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    
+  </body>
+</html>
