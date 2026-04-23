@@ -1,5 +1,5 @@
 .policy-section {
-  background: linear-gradient(155deg, #0b0b11 0%, #1b2131 100%);
+  background: #fff;
   padding-top: 100px;
   padding-bottom: 80px;
 
@@ -10,12 +10,12 @@
 }
 
 .policy-section h1 {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 30px;
   letter-spacing: -0.04em;
   text-align: center;
-  color: #fff;
+  color: #151515;
   margin-bottom: 30px;
 
   @include media(desktop) {
@@ -27,8 +27,8 @@
 .policy-section h2 {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 18px;
-  color: #fff;
+  font-size: 16px;
+  color: #151515;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -38,9 +38,9 @@
 
 .policy-section h3 {
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 16px;
-  color: #fff;
+  color: #151515;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -52,18 +52,19 @@
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: #fff;
+  color: #151515;
   margin-bottom: 16px;
 
   @include media(desktop) {
     font-size: 24px;
   }
 }
+
 .policy-section li {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: #fff;
+  color: #151515;
   margin-bottom: 16px;
 
   @include media(desktop) {

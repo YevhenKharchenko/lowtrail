@@ -20,7 +20,7 @@ featuresSwiper = new Swiper('.features-swiper-container', {
   breakpoints: {
     1440: {
       centeredSlides: false,
-      slidesPerView: 5,
+      slidesPerView: 3,
       grabCursor: false,
       allowTouchMove: false,
       spaceBetween: 0,

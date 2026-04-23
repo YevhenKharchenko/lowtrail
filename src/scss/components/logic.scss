@@ -1,46 +1,59 @@
-.gameplay-section {
-  background: rgba(210, 222, 255, 0.6);
-
+.logic-section {
   @include media(desktop) {
   }
 }
 
-.gameplay-bg-wrapper {
-  padding-top: 48px;
-  padding-bottom: 48px;
+.logic-bg-wrapper {
+  padding-top: 75px;
+  padding-bottom: 24px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 120px;
+    padding-bottom: 20px;
     max-width: 1440px;
   }
 }
 
-.gameplay-container {
-  padding: 0 24px;
+.logic-container {
+  padding: 0 8px;
 
   @include media(desktop) {
-    padding: 0 186px;
+    padding: 0 80px;
   }
 }
 
-.gameplay-title {
+.logic-title {
+  text-align: left;
+
   @include media(desktop) {
   }
 }
 
-.gameplay-content-wrapper {
+.logic-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
   @include media(desktop) {
-    max-width: max-content;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.logic-text-wrapper {
+  @include media(desktop) {
+    width: 100%;
+    max-width: 626px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-.gameplay-text {
+.logic-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -51,22 +64,18 @@
   }
 }
 
-.gameplay-top-text {
+.logic-top-text {
   margin-bottom: 30px;
 
   @include media(desktop) {
-    max-width: max-content;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
-.gameplay-list-text {
+.logic-list-text {
   font-family: 'Inter', sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 14px;
-  text-align: center;
   color: #000;
   margin-bottom: 20px;
 
@@ -76,7 +85,7 @@
   }
 }
 
-.gameplay-list {
+.logic-list {
   list-style-type: disc;
   padding-left: 25px;
   color: #000;
@@ -85,26 +94,16 @@
   margin-bottom: 20px;
 
   @include media(desktop) {
-    max-width: max-content;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 50px;
   }
 }
 
-.gameplay-list-item {
-  width: 100%;
-  max-width: 305px;
-  margin-left: auto;
-  margin-right: auto;
-
+.logic-list-item {
   @include media(desktop) {
-    max-width: max-content;
-    margin: 0;
   }
 }
 
-.gameplay-item-text {
+.logic-item-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -115,19 +114,30 @@
   }
 }
 
-.gameplay-bottom-text {
-  text-align: center;
-  margin-bottom: 30px;
+.logic-bottom-text {
+  margin-bottom: 70px;
 
   @include media(desktop) {
-    margin-bottom: 70px;
   }
 }
 
-.gameplay-btn {
+.logic-btn {
   padding: 9px 34px;
+  margin: 0;
 
   @include media(desktop) {
     padding: 14px 80px;
+  }
+}
+
+.logic-img {
+  box-shadow: 0 24px 54px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+    min-width: 617px;
   }
 }
